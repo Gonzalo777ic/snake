@@ -1,20 +1,11 @@
 # Ignorar entorno virtual
 venv/
 
-# Ignorar archivos de Python compilados
+# Ignorar archivos Python compilados
+__pycache__/
 *.pyc
 *.pyo
-__pycache__/
 
-# Ignorar archivos de configuración IDE/Editor (por ejemplo, VSCode, PyCharm, etc.)
-.vscode/
-.idea/
-
-# Ignorar archivos de logs
+# Ignorar otros archivos o directorios innecesarios
 *.log
-
-# Ignorar el archivo de configuración de Python (si tienes)
 *.env
-
-# Ignorar el archivo de base de datos (si usas SQLite, por ejemplo)
-*.db
